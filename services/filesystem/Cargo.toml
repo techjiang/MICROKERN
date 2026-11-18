@@ -1,0 +1,10 @@
+[package]
+name = "mk_filesystem"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+publish = false
+
+[[bin]]
+name = "mk_filesystem"
+path = "src/main.rs"

@@ -1,0 +1,5 @@
+[book]
+title = "MICROKERN Developer Book"
+authors = ["科技酱"]
+language = "zh"
+src = "src"

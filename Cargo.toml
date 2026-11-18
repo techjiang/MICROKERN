@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+members = [
+    "kernel",
+    "services/process-manager",
+    "services/filesystem",
+    "services/network",
+    "services/posix",
+    "services/shell",
+    "lib/mk-abi",
+    "lib/mk-syscall",
+    "lib/mk-ipc",
+    "lib/mk-std",
+    "apps/hello",
+    "apps/echo-server",
+    "apps/file-manager",
+    "apps/bench",
+    "tools/mkimage",
+    "tools/mkdebug",
+    "tools/mkanalyze",
+]
