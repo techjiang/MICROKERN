@@ -18,7 +18,7 @@ pub extern "C" fn _start() -> ! {
         Err(_) => halt(),
     };
 
-    serial_write_str("MICROKERN v0.1.0: boot ok\n");
+    serial_write_str("MICROKERN v1.0.0: boot ok\n");
 
     if let Some(frame) = allocator.allocate(0) {
         serial_write_str("MICROKERN: first frame allocated\n");
